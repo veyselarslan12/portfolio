@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
-        <h1>Veysel Arslan's <span class="Portfolio">Portfolio</span></h1>
+    <header class="header">
+        <h1>Veysel Arslan's <span class="portfolio">Portfolio</span></h1>
         <div>
             <nav>
                 <ul>
@@ -26,27 +27,25 @@
             </nav>
         </div>
     </header>
-    <section>
-        <div class="content">
-            <div id="project-1" class="section">
-                <img src="images/project-1.png" class="float-left" alt="search-engine-optimization"/>
+    <section class="content">
+         <div id="Portfolio" class="portfolio">
+                <img src="images/project-1.png" alt="search-engine-optimization"/>
                 <h2>Search Engine Optimization</h2>
                 <p>The dominance of mobile internet use means that users are searching
                     for the right business as they travel, shop, or sit on their couch at
                     home. Search Engine Optimization (SEO) allows you to increase your
                     visibility and find the right customers for your business.</p>
             </div>
-            <div id="project-2" class="section">
-                <img src="images/project-2.png" class="float-left" alt="flexbox-snippet-codes" />
+            <div class="portfolio">
+                <img src="images/project-2.png" alt="flexbox-snippet-codes" />
                 <h2>CSS Snippet Cheatsheet</h2>
                 <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
             </div>
-            <div id="project-3" class="section">
-                <img src="images/project-3.png" class="float-left" alt="matrix-effect" />
+            <div class="portfolio">
+                <img src="images/project-3.png"  alt="matrix-effect" />
                 <h2>Matrix Effect</h2>
                 <p>I made this project for fun because i love matrix movie.Since i watched that movie i always want to make this code.</p>
             </div>
-        </div>
     </section>
 
     <section id="About-Me" class="about-me" >
@@ -68,7 +67,7 @@
             <p>Reach out to discuss projects or chat about web development. Thanks for visiting!</p>
     </div>
     <form>
-        <div class="form-control">
+        <div id="Contact" class="form-control">
             <h2>Give Me Feedback!!!</h2>
             <label>Name:</label>
             <input name="name" type="text"/>
