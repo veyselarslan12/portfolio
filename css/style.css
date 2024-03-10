@@ -4,10 +4,12 @@ body {
   
 
 .header {
-    padding: 40px;
+    padding: 20px;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(165, 34, 34);
     color: black;
+    display: flex;
+    justify-content: center;
 }
 
 .header h1 {
@@ -18,29 +20,29 @@ body {
 
 .header h1 .portfolio {
     color: white;
-    display:  inline-block;
+    display: flex;
     
 }
 
-.header nav {
-    margin-right: 20px;
-    float: right;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;    
+ .nav-bar nav {
+    background-color: pink;
 
 }
  
-.header nav ul {
-    list-style-type: none;
+.nav-bar nav ul {
+    margin: 0 20px;
+    padding: 20px;
+    list-style-type: none; 
+    
 }
 
-.header nav ul li {
-    display: inline-block;
-    margin-left: 15px;
-    text-align: justify;
-    display:inline-flex;
-    padding: 0 20px 0 20px;
-
+.nav-bar nav ul li  {
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px; 
+    justify-content: center;
+    align-items: center; 
+    
 }
 
 a {
