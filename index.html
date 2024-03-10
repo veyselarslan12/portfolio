@@ -9,49 +9,54 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header class="header">
+    <header>
         <h1>Veysel Arslan's <span class="portfolio">Portfolio</span></h1>
-    </header>
-        <div class="nav-bar">
-            <nav>
+            <div class="card-header">
                 <ul>
                     <li>
-                        <a href="#Portfolio">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#About-Me">About Me</a>
+                        <a href="#about-me">About Me</a>
                     </li>
                     <li>
-                        <a href="#Contact">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
-        </div>
-    
-    <section class="content">
-         <div id="Portfolio" class="portfolio">
-                <img src="images/project-1.png" alt="search-engine-optimization"/>
-                <h2>Search Engine Optimization</h2>
-                <p>The dominance of mobile internet use means that users are searching
+    </header>
+    <main>
+        <section class="content">
+            <div id="portfolio" class="container">
+                <img src="images/project-1.png" alt="search-engine-optimization" />
+                <div>
+                    <h2>Search Engine Optimization</h2>
+                    <p>The dominance of mobile internet use means that users are searching
                     for the right business as they travel, shop, or sit on their couch at
                     home. Search Engine Optimization (SEO) allows you to increase your
                     visibility and find the right customers for your business.</p>
+                </div>
             </div>
-            <div class="portfolio">
+            <div class="container">
                 <img src="images/project-2.png" alt="flexbox-snippet-codes" />
-                <h2>CSS Snippet Cheatsheet</h2>
-                <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
+                <div>
+                    <h2>CSS Snippet Cheatsheet</h2>
+                    <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
             </div>
-            <div class="portfolio">
+            </div>
+            <div class="container">
                 <img src="images/project-3.png"  alt="matrix-effect" />
-                <h2>Matrix Effect</h2>
-                <p>I made this project for fun because i love matrix movie.Since i watched that movie i always want to make this code.</p>
+                <div>
+                    <h2>Matrix Effect</h2>
+                    <p>I made this project for fun because i love matrix movie.Since i watched that movie i always want to make this code.</p>
             </div>
-    </section>
+            </div>
+        </section>
+    </main>
 
-    <section id="About-Me" class="about-me" >
+    <section>
 
-        <div class="about-me">
+        <div id="about-me" class="about-me">
             <h2>About Me</h2>
             <p>Hey there! I'm Veysel, a web developer hailing from Turkey. Welcome to my portfolio where I showcase some of my current projects.Although I graduated as a civil engineer, my true passion lies in technology. I've always been fascinated by computers and love building interesting things with them.My interest in technology led me to web development, where I combine creativity with technical skills. I enjoy learning new languages and frameworks to stay updated with the latest trends.
             Through this portfolio, I aim to share my journey as a web developer and showcase projects I'm passionate about.
@@ -60,15 +65,15 @@
             Reach out to discuss projects or chat about web development. Thanks for visiting!</p>
     </div>
     <form>
-        <div id="Contact" class="form-control">
+        <div id="contact" >
             <h2>Give Me Feedback!!!</h2>
             <label>Name:</label>
             <input name="name" type="text"/>
-           </div>
-           <div class="form-control">
+        </div>
+        <div>
             <label>Email:</label>
             <input name="email"  type="email"/>
-           </div>
+         </div>
            
            <button>Send Me</button>
     </form>
