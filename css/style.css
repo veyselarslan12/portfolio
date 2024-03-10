@@ -99,4 +99,31 @@ p {
 
 form {
     text-align: center;
+    
+}
+
+form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.form-control input {
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: rgb(158, 147, 147);
+}
+
+button {
+    font-size: 20px;
+    border-style: 5px solid;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    margin: 40px 0 40px 0;
+    padding-bottom: 40px;
 }
