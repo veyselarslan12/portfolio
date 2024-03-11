@@ -27,23 +27,15 @@ header,  .portfolio {
     
 }
 
-header .card-header ul li a {
-    display: flex;
-    text-align: center;
-    padding: 10px;
-    justify-content: space-evenly;
-}
-
- 
-
-
 a {
+    display: inline;
+    padding: 40px;
     color: black;
-    text-decoration-line: none;
+    text-decoration-line: underline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
-    
 }
+
 
 p {
     font-size: 16px;
