@@ -16,6 +16,14 @@ header {
     margin-bottom: 20px;
     text-shadow: 1px 0.5px white;
 }
+.profile {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
 
 header h1 {
     color: black;
@@ -36,6 +44,7 @@ a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     text-shadow: 1px 1px white;
+    box-shadow: 10px 10px 10px black;
 }
 
 /* Portfolio*/
@@ -55,6 +64,7 @@ a {
     width: 100%;
     border-radius: 100px 0;
     margin-left: 2%;
+    box-shadow: 10px 10px 10px black;
 }
 
 .container h2 {
@@ -66,6 +76,8 @@ a {
     padding: 10px 40px;
     border: 2px solid black;
     border-radius: 100px;
+    box-shadow: 10px 10px 10px black;
+    
 }
 
 .container p {
@@ -107,6 +119,7 @@ a {
     background-color: black;
     border: 0;
     color: white;
+    box-shadow: 10px 10px 10px black;
 }
 
 /* About me */
@@ -150,6 +163,7 @@ form button {
     background-color: black;
     padding: 10px 40px;
     border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
 
 }
 
@@ -180,4 +194,10 @@ footer {
         width: 100%;
     }
     
+}
+
+/* project images codes here */
+.project-images:hover {
+    z-index: 2;
+    transform: scale(1.3);
 }
