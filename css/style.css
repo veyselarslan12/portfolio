@@ -16,6 +16,7 @@ header {
     margin-bottom: 20px;
     text-shadow: 1px 0.5px white;
 }
+
 .profile {
     width: 60px;
     height: 60px;
@@ -146,7 +147,7 @@ form {
 }
 
 form h2 {
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
@@ -171,6 +172,19 @@ label {
     font-size: 20px;
     font-weight: 700;
 }
+
+
+textarea {
+    margin: 10px;
+    background-color: rgb(158, 147, 147);
+    width: 167px;
+    height: 167px;
+    box-shadow: 10px 10px 10px black;
+}
+.feedback label {
+    display: inline;
+}
+
 
 footer {
     text-align: center;

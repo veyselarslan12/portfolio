@@ -23,7 +23,9 @@
 
 * ![media-queries](../portfolio/images/media-queries.png)
 * After media queries codes you can see that my portfolio has been responsive for mobile devices.
+* Tablet Size Website
 * ![tablet-size](../portfolio/images/tablet-size.png)
+* Mobile Phone Size
 * ![phone-size](../portfolio/images/phone-size.png)
 
 ## What Did I learned?
