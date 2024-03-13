@@ -15,20 +15,29 @@ header {
     font-size: 40px;
     margin-bottom: 20px;
     text-shadow: 1px 0.5px white;
+    display: flex;
+}
+
+#nav-wrapper {
+    margin: 0 auto;
 }
 
 .profile {
-    width: 60px;
-    height: 60px;
-    display: inline-flex;
+    width: 120px;
+    height: 120px;
+    margin-left: 40px;
+    /* display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     border-radius: 10px;
 }
 
 header h1 {
     color: black;
 
+}
+header a {
+    background-color: white;
 }
 
 .portfolio {
@@ -39,12 +48,16 @@ a {
     display: inline-block;
     padding: 10px 40px 10px;
     border-radius: 100px;
-    background-color: white;
+    /* background-color: white; */
     color: black;
     text-decoration-line: underline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     text-shadow: 1px 1px white;
+    /* box-shadow: 10px 10px 10px black; */
+}
+
+.shadow {
     box-shadow: 10px 10px 10px black;
 }
 
@@ -65,7 +78,7 @@ a {
     width: 100%;
     border-radius: 100px 0;
     margin-left: 2%;
-    box-shadow: 10px 10px 10px black;
+    /* box-shadow: 10px 10px 10px black; */
 }
 
 .container h2 {
@@ -77,7 +90,7 @@ a {
     padding: 10px 40px;
     border: 2px solid black;
     border-radius: 100px;
-    box-shadow: 10px 10px 10px black;
+    /* box-shadow: 10px 10px 10px black; */
     
 }
 
