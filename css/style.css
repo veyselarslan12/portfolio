@@ -26,9 +26,6 @@ header {
     width: 120px;
     height: 120px;
     margin-left: 40px;
-    /* display: inline-flex;
-    align-items: center;
-    justify-content: center; */
     border-radius: 10px;
 }
 
@@ -48,20 +45,18 @@ a {
     display: inline-block;
     padding: 10px 40px 10px;
     border-radius: 100px;
-    /* background-color: white; */
     color: black;
     text-decoration-line: underline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 18px;
     text-shadow: 1px 1px white;
-    /* box-shadow: 10px 10px 10px black; */
 }
 
 .shadow {
     box-shadow: 10px 10px 10px black;
 }
 
-/* Portfolio*/
+/* Portfolio projects codes are here*/
 .container {
     display: flex;
     flex-direction: row;
@@ -78,7 +73,6 @@ a {
     width: 100%;
     border-radius: 100px 0;
     margin-left: 2%;
-    /* box-shadow: 10px 10px 10px black; */
 }
 
 .container h2 {
@@ -90,7 +84,6 @@ a {
     padding: 10px 40px;
     border: 2px solid black;
     border-radius: 100px;
-    /* box-shadow: 10px 10px 10px black; */
     
 }
 
@@ -142,6 +135,7 @@ a {
     font-size: 40px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 .about-me p {
@@ -223,7 +217,7 @@ footer {
     
 }
 
-/* project images hover codes here */
+/* Project images hover codes here */
 .project-images:hover {
     z-index: 2;
     transform: scale(1.3);
