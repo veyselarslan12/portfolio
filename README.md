@@ -12,21 +12,21 @@
 ## How Did I Solve The Problems?
 * I used class"container" to wrap the whole content and set its display property as flex.And i made all the images as a column.
 
-* ![Flex-box-problem](../portfolio/images/flex-box.png)
+* ![Flex-box-problem](./images/flex-box.png)
 * Fixed the layout issue by using CSS flex box to organize and distribute space for different sections of my portfolio website. 
 * This is how it looks like after fixing the problem.
-* ![Flex-box-website](../portfolio/images/flex-box-website.png)
+* ![Flex-box-website](./images/flex-box-website.png)
 
-* ![hover-codes](../portfolio/images/hover.png)
+* ![hover-codes](./images/hover.png)
 * To make the image appear when you hovered over them, I used CSS :hover selector along with z-index and transform to scale (1.3).
-* ![hover-website](../portfolio/images/hover-website.png)
+* ![hover-website](./images/hover-website.png)
 
-* ![media-queries](../portfolio/images/media-queries.png)
+* ![media-queries](./images/media-queries.png)
 * After media queries codes you can see that my portfolio has been responsive for mobile devices.
 * Tablet Size Website
-* ![tablet-size](../portfolio/images/tablet-size.png)
+* ![tablet-size](./images/tablet-size.png)
 * Mobile Phone Size
-* ![phone-size](../portfolio/images/phone-size.png)
+* ![phone-size](./images/phone-size.png)
 
 ## What Did I learned?
 * I learned how to use Flex Box in CSS which made it easier to organize the content of the webpage.
